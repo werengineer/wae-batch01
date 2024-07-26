@@ -1,7 +1,10 @@
+// variable declaration
 const submitButton = document.getElementById('task-submit')
 const taskList = document.getElementById('tasks-list')
 const taskInput = document.getElementById('task-input')
 
+
+// function
 function loadData() {
     const data = sessionStorage.getItem('tasks')
     const completedTasks = sessionStorage.getItem('completedTasks')
